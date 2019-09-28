@@ -1,4 +1,4 @@
-#
+# exploiter un cookie pour gagner les droits d'admin
 
 ## exploit
 
