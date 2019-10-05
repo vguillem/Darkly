@@ -2,7 +2,7 @@
 
 ## exploit
 
-Sur la page `VM_URL/?page=survey`, on peut modifier la valeur d'une option, la selectionner et le backend ne va pas faire de verification, entrainant ainsi une execution potentielle de code sur le serveur. \
+Sur la page `VM_URL/?page=survey`, on peut modifier la valeur d'une option, la selectionner et le backend ne va pas faire de verification, entrainant ainsi une execution potentielle de code sur le serveur. 
 
 ## protection
 
