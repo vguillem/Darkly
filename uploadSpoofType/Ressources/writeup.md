@@ -6,6 +6,6 @@ Sur la page `?page=upload`, on peut uploader un fichier de type image/jpeg \
   \
 Executer le script `uploadExploit.sh` pour uploader le fichier. \
 Si le fichier est corectement uploader, le flag est affiche. \
- \
+ 
 ## Protection :
 Renomerle fichier uploader cote serveur. avec par exemple un uuid en nom et l'extention de fichier souhaite. \
