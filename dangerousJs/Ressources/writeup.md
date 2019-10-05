@@ -31,7 +31,7 @@ with (thisform) {
 }
 ```
 
-Grace aux [explications](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with) de mdn sur le statement `with`, nous savons que nous pouvons l'exploiter afin d'override les proprietes de l'objet this passe en parametre. \
+Grace aux [explications](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with) de mdn sur le statement `with`, nous savons que nous pouvons l'exploiter afin d'override les proprietes de l'objet this passe en parametre. 
 
 Ici nous pouvons donc juste passer une valeur dans le champ 'name' et nous obtenons le flag.
 
