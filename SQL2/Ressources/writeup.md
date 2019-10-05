@@ -13,4 +13,4 @@ decrypte : albatroz \
 on met en minuscule puis encrypte en Sh256 pour avoir le flag. 
 
 ## Protection :
-L'utilisation de requete preparee en back  permet d'eviter l'injection sql. \
+L'utilisation de requete preparee en back  permet d'eviter l'injection sql. 
