@@ -11,7 +11,7 @@ pour finir on execute notre requete avec les informations recuperees : 1 AND 1=2
 la base de donnees nous affiche : First name: Decrypt this password -> then lower all the char. Sh256 on it and it's good ! \
 le mot de passe est : 5ff9d0165b4f92b14994e5c685cdce28 \
 decrypte : FortyTwo \
-on met en minuscule puis encrypte en Sh256 pour avoir le flag. \
-\
+on met en minuscule puis encrypte en Sh256 pour avoir le flag. 
+
 ## Protection :
-L'utilisation de requete preparee en back  permet d'eviter l'injection sql. \
+L'utilisation de requete preparee en back  permet d'eviter l'injection sql. 
