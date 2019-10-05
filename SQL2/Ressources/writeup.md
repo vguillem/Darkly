@@ -10,7 +10,7 @@ ensuite il nous faut determiner les colonnes de la table : 1 AND 1=2 UNION SELEC
 pour finir on execute notre requete avec les informations recuperees : 1 AND 1=2 UNION SELECT title,comment FROM list_images \
 la base de donnees nous affiche : If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46 \
 decrypte : albatroz \
-on met en minuscule puis encrypte en Sh256 pour avoir le flag. \
-\
+on met en minuscule puis encrypte en Sh256 pour avoir le flag. 
+
 ## Protection :
 L'utilisation de requete preparee en back  permet d'eviter l'injection sql. \
